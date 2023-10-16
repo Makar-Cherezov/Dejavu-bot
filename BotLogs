@@ -1,0 +1,747 @@
+00:20:15,68 aiogram.dispatcher INFO Start polling
+00:20:15,169 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:20:25,169 aiogram.dispatcher INFO Polling stopped
+00:20:25,170 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:21:38,727 aiogram.dispatcher INFO Start polling
+00:21:38,834 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:21:42,654 aiogram.event INFO Update id=100184674 is handled. Duration 407 ms by bot id=6350909967
+00:21:46,808 aiogram.event INFO Update id=100184675 is handled. Duration 202 ms by bot id=6350909967
+00:22:15,88 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:22:15,89 aiogram.dispatcher INFO Polling stopped
+00:28:45,627 aiogram.dispatcher INFO Start polling
+00:28:45,724 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:28:50,605 aiogram.event INFO Update id=100184676 is handled. Duration 360 ms by bot id=6350909967
+00:29:00,437 aiogram.event INFO Update id=100184677 is not handled. Duration 0 ms by bot id=6350909967
+00:29:03,153 aiogram.event INFO Update id=100184678 is handled. Duration 187 ms by bot id=6350909967
+00:29:08,72 aiogram.dispatcher INFO Polling stopped
+00:29:08,72 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:29:26,61 aiogram.dispatcher INFO Start polling
+00:29:26,175 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:29:30,914 aiogram.event INFO Update id=100184679 is handled. Duration 390 ms by bot id=6350909967
+00:29:37,981 aiogram.dispatcher INFO Polling stopped
+00:29:37,981 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:13:57,538 aiogram.dispatcher INFO Start polling
+21:13:57,647 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:14:17,321 aiogram.event INFO Update id=100184680 is handled. Duration 407 ms by bot id=6350909967
+21:14:19,127 aiogram.event INFO Update id=100184681 is not handled. Duration 0 ms by bot id=6350909967
+21:14:19,127 aiogram.event ERROR Cause exception while process update id=100184681 by bot id=6350909967
+AttributeError: type object 'Category' has no attribute 'Select'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 31, in show_categories
+    for cat in Models.Category.Select():
+AttributeError: type object 'Category' has no attribute 'Select'
+21:14:43,435 aiogram.dispatcher INFO Polling stopped
+21:14:43,435 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:16:43,111 aiogram.dispatcher INFO Start polling
+21:16:43,213 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:16:44,824 aiogram.event INFO Update id=100184682 is handled. Duration 359 ms by bot id=6350909967
+21:16:46,52 aiogram.event INFO Update id=100184683 is not handled. Duration 16 ms by bot id=6350909967
+21:16:46,52 aiogram.event ERROR Cause exception while process update id=100184683 by bot id=6350909967
+AttributeError: type object 'Category' has no attribute 'Select'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 31, in show_categories
+    for cat in Models.Category.Select():
+AttributeError: type object 'Category' has no attribute 'Select'
+21:17:09,184 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:17:09,184 aiogram.dispatcher INFO Polling stopped
+21:17:36,28 aiogram.dispatcher INFO Start polling
+21:17:36,138 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:17:37,605 aiogram.event INFO Update id=100184684 is handled. Duration 531 ms by bot id=6350909967
+21:17:58,446 aiogram.event INFO Update id=100184685 is not handled. Duration 0 ms by bot id=6350909967
+21:17:58,446 aiogram.event ERROR Cause exception while process update id=100184685 by bot id=6350909967
+AttributeError: type object 'Category' has no attribute 'Select'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 32, in show_categories
+    for cat in Models.Category.Select():
+AttributeError: type object 'Category' has no attribute 'Select'
+21:18:02,440 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:18:02,440 aiogram.dispatcher INFO Polling stopped
+21:18:52,233 aiogram.dispatcher INFO Start polling
+21:18:52,325 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:18:52,937 aiogram.event INFO Update id=100184686 is handled. Duration 452 ms by bot id=6350909967
+21:18:53,832 aiogram.event INFO Update id=100184687 is not handled. Duration 0 ms by bot id=6350909967
+21:18:53,833 aiogram.event ERROR Cause exception while process update id=100184687 by bot id=6350909967
+AttributeError: type object 'Category' has no attribute 'Select'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 33, in show_categories
+    for cat in Models.Category.Select():
+AttributeError: type object 'Category' has no attribute 'Select'
+21:19:03,822 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:19:03,822 aiogram.dispatcher INFO Polling stopped
+21:29:26,36 aiogram.dispatcher INFO Start polling
+21:29:26,141 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:29:26,745 aiogram.event INFO Update id=100184688 is handled. Duration 452 ms by bot id=6350909967
+21:29:28,91 aiogram.event INFO Update id=100184689 is not handled. Duration 0 ms by bot id=6350909967
+21:29:28,92 aiogram.event ERROR Cause exception while process update id=100184689 by bot id=6350909967
+AttributeError: type object 'Category' has no attribute 'Select'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 32, in show_categories
+    query = Category.Select()
+AttributeError: type object 'Category' has no attribute 'Select'
+21:29:58,98 aiogram.dispatcher INFO Polling stopped
+21:29:58,99 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:33:41,774 aiogram.dispatcher INFO Start polling
+21:33:41,881 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:33:44,238 aiogram.event INFO Update id=100184690 is handled. Duration 422 ms by bot id=6350909967
+21:33:45,174 aiogram.event INFO Update id=100184691 is not handled. Duration 0 ms by bot id=6350909967
+21:33:45,174 aiogram.event ERROR Cause exception while process update id=100184691 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 36, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 16, in build_kb
+    builder.button(text=d.get(key) , callback_data=key)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\keyboard.py", line 251, in button
+    button = self._button_type(**kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:34:24,551 aiogram.dispatcher INFO Polling stopped
+21:34:24,552 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:34:38,242 aiogram.dispatcher INFO Start polling
+21:34:38,344 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:34:53,778 aiogram.dispatcher INFO Polling stopped
+21:34:53,778 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:35:05,205 aiogram.dispatcher INFO Start polling
+21:35:05,322 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:35:06,455 aiogram.event INFO Update id=100184693 is handled. Duration 438 ms by bot id=6350909967
+21:35:07,800 aiogram.event INFO Update id=100184694 is not handled. Duration 0 ms by bot id=6350909967
+21:35:07,800 aiogram.event ERROR Cause exception while process update id=100184694 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 36, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 16, in build_kb
+    builder.button(text=d.get(key) , callback_data=key)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\keyboard.py", line 251, in button
+    button = self._button_type(**kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:38:28,412 aiogram.dispatcher INFO Polling stopped
+21:38:28,413 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:38:32,940 aiogram.dispatcher INFO Start polling
+21:38:33,44 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:38:33,640 aiogram.event INFO Update id=100184695 is handled. Duration 406 ms by bot id=6350909967
+21:38:35,363 aiogram.event INFO Update id=100184696 is not handled. Duration 155 ms by bot id=6350909967
+21:38:35,363 aiogram.event ERROR Cause exception while process update id=100184696 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 37, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 16, in build_kb
+    builder.button(text=d.get(key) , callback_data=key)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\keyboard.py", line 251, in button
+    button = self._button_type(**kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:39:00,992 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:39:00,992 aiogram.dispatcher INFO Polling stopped
+21:39:47,494 aiogram.dispatcher INFO Start polling
+21:39:47,600 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:39:48,68 aiogram.event INFO Update id=100184697 is not handled. Duration 15 ms by bot id=6350909967
+21:39:48,68 aiogram.event ERROR Cause exception while process update id=100184697 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 24, in start_handler
+    await msg.answer(text.greet.format(name=msg.from_user.username), reply_markup=Keyboards.build_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 16, in build_kb
+    builder.button(text=d.get(key) , callback_data=key)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\utils\keyboard.py", line 251, in button
+    button = self._button_type(**kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:40:11,615 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:40:11,615 aiogram.dispatcher INFO Polling stopped
+21:50:47,413 aiogram.dispatcher INFO Start polling
+21:50:47,520 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:50:49,221 aiogram.event INFO Update id=100184698 is handled. Duration 375 ms by bot id=6350909967
+21:50:50,473 aiogram.event INFO Update id=100184699 is not handled. Duration 140 ms by bot id=6350909967
+21:50:50,473 aiogram.event ERROR Cause exception while process update id=100184699 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 37, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 16, in build_kb
+    builder.add(InlineKeyboardButton(text=d.get(key), callback_data=key))
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:51:06,321 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:51:06,322 aiogram.dispatcher INFO Polling stopped
+21:52:14,813 aiogram.dispatcher INFO Start polling
+21:52:14,916 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:52:19,280 aiogram.event INFO Update id=100184700 is handled. Duration 343 ms by bot id=6350909967
+21:52:20,649 aiogram.event INFO Update id=100184701 is not handled. Duration 172 ms by bot id=6350909967
+21:52:20,649 aiogram.event ERROR Cause exception while process update id=100184701 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 36, in show_categories
+    await clbck.message.edit_reply_markup(Keyboards.build_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 16, in build_kb
+    builder.add(InlineKeyboardButton(text=d.get(key), callback_data=key))
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:52:32,420 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:52:32,421 aiogram.dispatcher INFO Polling stopped
+21:54:23,552 aiogram.dispatcher INFO Start polling
+21:54:23,664 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:54:25,364 aiogram.event INFO Update id=100184702 is handled. Duration 375 ms by bot id=6350909967
+21:54:26,886 aiogram.event INFO Update id=100184703 is handled. Duration 234 ms by bot id=6350909967
+21:54:32,190 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:54:32,190 aiogram.dispatcher INFO Polling stopped
+21:55:16,482 aiogram.dispatcher INFO Start polling
+21:55:16,589 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:55:17,125 aiogram.event INFO Update id=100184704 is handled. Duration 358 ms by bot id=6350909967
+21:55:18,323 aiogram.event INFO Update id=100184705 is not handled. Duration 0 ms by bot id=6350909967
+21:55:18,323 aiogram.event ERROR Cause exception while process update id=100184705 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 36, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 17, in build_kb
+    builder.add(InlineKeyboardButton(text=d.get(key), callback_data=key))
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:55:42,355 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:55:42,355 aiogram.dispatcher INFO Polling stopped
+21:57:43,413 aiogram.dispatcher INFO Start polling
+21:57:43,526 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:57:47,759 aiogram.event INFO Update id=100184707 is handled. Duration 406 ms by bot id=6350909967
+21:57:49,479 aiogram.event INFO Update id=100184708 is not handled. Duration 0 ms by bot id=6350909967
+21:57:49,480 aiogram.event ERROR Cause exception while process update id=100184708 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 36, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 18, in build_kb
+    builder.add(InlineKeyboardButton(text=d.get(key), callback_data=key))
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:58:10,667 aiogram.event INFO Update id=100184709 is handled. Duration 390 ms by bot id=6350909967
+21:58:11,679 aiogram.event INFO Update id=100184710 is not handled. Duration 0 ms by bot id=6350909967
+21:58:11,679 aiogram.event ERROR Cause exception while process update id=100184710 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 36, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 18, in build_kb
+    builder.add(InlineKeyboardButton(text=d.get(key), callback_data=key))
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:58:18,377 aiogram.dispatcher INFO Polling stopped
+21:58:18,378 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:00:54,12 aiogram.dispatcher INFO Start polling
+22:00:54,123 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:00:54,811 aiogram.event INFO Update id=100184711 is handled. Duration 563 ms by bot id=6350909967
+22:00:56,198 aiogram.event INFO Update id=100184712 is handled. Duration 359 ms by bot id=6350909967
+22:01:13,38 aiogram.dispatcher INFO Polling stopped
+22:01:13,39 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
