@@ -1,22 +1,25 @@
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton, ReplyKeyboardMarkup, ReplyKeyboardRemove
 from aiogram.utils.keyboard import InlineKeyboardBuilder
+from logger import logger
 
-menu = [
+import callbacks
+
+menu_buttons = [
     [InlineKeyboardButton(text="Выбрать категорию", callback_data="choose_category"),
     InlineKeyboardButton(text="Посмотреть все товары", callback_data="show_all")],
     [InlineKeyboardButton(text="Дата следующей гаражки", callback_data="next_date")]
 ]
-menu = InlineKeyboardMarkup(inline_keyboard=menu)
+menu = InlineKeyboardMarkup(inline_keyboard=menu_buttons)
 exit_kb = ReplyKeyboardMarkup(keyboard=[[KeyboardButton(text="◀️ Выйти в меню")]], resize_keyboard=True)
 iexit_kb = InlineKeyboardMarkup(inline_keyboard=[[InlineKeyboardButton(text="◀️ Выйти в меню", callback_data="menu")]])
 
 
-def build_kb(d: dict):
+def build_categories_kb(d: dict):
     builder = InlineKeyboardBuilder()
     for key in d.keys():
-        print(d.get(key))
-        builder.add(InlineKeyboardButton(text=str(d.get(key)), callback_data=str(key)))
-        print(d.get(key))
+        builder.button(
+            text=str(d.get(key)),
+            callback_data=callbacks.CategoriesCallbackFactory(key=key, df="1"))
     builder.adjust(2)
     return builder.as_markup()
 

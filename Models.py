@@ -1,7 +1,8 @@
 from peewee import *
 from peewee import TextField
+from playhouse.shortcuts import ThreadSafeDatabaseMetadata
 
-database = SqliteDatabase('garazhka.db')
+database = SqliteDatabase('garazhka.db', )
 
 
 class UnknownField(object):
@@ -11,7 +12,7 @@ class UnknownField(object):
 class BaseModel(Model):
     class Meta:
         database = database
-
+        model_metadata_class = ThreadSafeDatabaseMetadata
 
 class Category(BaseModel):
     category_id = AutoField(column_name='CategoryID')
@@ -47,9 +48,8 @@ class Clothing(BaseModel):
     status = ForeignKeyField(column_name='Status', field='status_id', model=Statuses)
 
     def GetImagePaths(self):
-        query = (self.select(Images.image_path)
-                 .join(ImagesOfClothing)
-                 .join(Images))
+        query = (ImagesOfClothing.select('ImagePath')
+                 .where(ImagesOfClothing.clothFK == self.cloth_id))
         image_paths = []
         for im in query:
             image_paths.append("./images/" + im)
@@ -59,21 +59,13 @@ class Clothing(BaseModel):
         table_name = 'Clothing'
 
 
-class Images(BaseModel):
-    image_id = AutoField(column_name='ImageID')
-    image_path = TextField(column_name='ImagePath')
-
-    class Meta:
-        table_name = 'Images'
-
-
 class ImagesOfClothing(BaseModel):
-    cloth = ForeignKeyField(column_name='ClothID', field='cloth_id', model=Clothing, null=True)
-    image = ForeignKeyField(column_name='ImageID', field='image_id', model=Images, null=True)
+    clothFK = ForeignKeyField(column_name='ClothID', field='cloth_id', model=Clothing, null=True)
+    image_path = TextField(column_name='ImagePath')
+    image_id = AutoField(column_name='ClothImageID')
 
     class Meta:
         table_name = 'Images_of_Clothing'
-        primary_key = False
 
 
 class Requests(BaseModel):

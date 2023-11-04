@@ -745,3 +745,1776 @@ callback_data
 22:00:56,198 aiogram.event INFO Update id=100184712 is handled. Duration 359 ms by bot id=6350909967
 22:01:13,38 aiogram.dispatcher INFO Polling stopped
 22:01:13,39 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:50:48,536 aiogram.dispatcher INFO Start polling
+22:50:48,672 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:50:55,460 aiogram.event INFO Update id=100184713 is handled. Duration 452 ms by bot id=6350909967
+22:50:56,861 aiogram.event INFO Update id=100184714 is handled. Duration 187 ms by bot id=6350909967
+22:51:02,295 aiogram.event INFO Update id=100184715 is not handled. Duration 0 ms by bot id=6350909967
+22:51:12,334 aiogram.dispatcher INFO Polling stopped
+22:51:12,334 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:06:54,413 aiogram.dispatcher INFO Start polling
+23:06:54,517 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:06:55,976 bot_logger DEBUG Bot started
+23:06:55,976 aiogram.event INFO Update id=100184716 is handled. Duration 530 ms by bot id=6350909967
+23:06:57,914 bot_logger DEBUG Category chosen
+23:06:57,914 aiogram.event INFO Update id=100184717 is handled. Duration 655 ms by bot id=6350909967
+23:07:05,12 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:07:05,12 aiogram.dispatcher INFO Polling stopped
+21:08:38,458 aiogram.dispatcher INFO Start polling
+21:08:38,555 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:08:53,296 aiogram.event INFO Update id=100184718 is not handled. Duration 0 ms by bot id=6350909967
+21:08:53,296 aiogram.event ERROR Cause exception while process update id=100184718 by bot id=6350909967
+TypeError: SQLiteStorage.get_state() got an unexpected keyword argument 'key'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 40, in __call__
+    data.update({"state": context, "raw_state": await context.get_state()})
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\context.py", line 15, in get_state
+    return await self.storage.get_state(key=self.key)
+TypeError: SQLiteStorage.get_state() got an unexpected keyword argument 'key'
+21:09:50,329 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:09:50,330 aiogram.dispatcher INFO Polling stopped
+21:12:06,502 aiogram.dispatcher INFO Start polling
+21:12:06,610 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:12:22,920 aiogram.event INFO Update id=100184719 is not handled. Duration 0 ms by bot id=6350909967
+21:12:22,920 aiogram.event ERROR Cause exception while process update id=100184719 by bot id=6350909967
+TypeError: SQLiteStorage.get_state() got an unexpected keyword argument 'key'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 40, in __call__
+    data.update({"state": context, "raw_state": await context.get_state()})
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\context.py", line 15, in get_state
+    return await self.storage.get_state(key=self.key)
+TypeError: SQLiteStorage.get_state() got an unexpected keyword argument 'key'
+21:12:34,749 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:12:34,749 aiogram.dispatcher INFO Polling stopped
+21:15:12,306 aiogram.dispatcher INFO Start polling
+21:15:12,421 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:15:16,526 bot_logger DEBUG Bot started
+21:15:16,526 aiogram.event INFO Update id=100184720 is handled. Duration 547 ms by bot id=6350909967
+21:15:28,182 aiogram.event INFO Update id=100184721 is not handled. Duration 16 ms by bot id=6350909967
+21:15:28,182 aiogram.event ERROR Cause exception while process update id=100184721 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=CategoriesCallbackFactory(key=1), input_type=CategoriesCallbackFactory]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 47, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_categories_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 21, in build_categories_kb
+    builder.add(InlineKeyboardButton(text=str(d.get(key)), callback_data=callbacks.CategoriesCallbackFactory(key=key)))
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=CategoriesCallbackFactory(key=1), input_type=CategoriesCallbackFactory]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:15:38,892 aiogram.dispatcher INFO Polling stopped
+21:15:38,893 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:17:16,435 aiogram.dispatcher INFO Start polling
+21:17:16,538 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:17:33,114 aiogram.dispatcher INFO Polling stopped
+21:17:33,115 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:17:42,786 aiogram.dispatcher INFO Start polling
+21:17:42,890 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:17:49,424 bot_logger DEBUG Bot started
+21:17:49,424 aiogram.event INFO Update id=100184723 is handled. Duration 764 ms by bot id=6350909967
+21:18:09,477 aiogram.event INFO Update id=100184724 is not handled. Duration 0 ms by bot id=6350909967
+21:18:09,477 aiogram.event ERROR Cause exception while process update id=100184724 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=CategoriesCallbackFactory(key=1), input_type=CategoriesCallbackFactory]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 47, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_categories_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 21, in build_categories_kb
+    builder.add(InlineKeyboardButton(text=str(d.get(key)), callback_data=callbacks.CategoriesCallbackFactory(key=key)))
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=CategoriesCallbackFactory(key=1), input_type=CategoriesCallbackFactory]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:18:20,61 aiogram.dispatcher INFO Polling stopped
+21:18:20,62 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:20:47,718 aiogram.dispatcher INFO Start polling
+21:20:47,818 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:20:51,668 bot_logger DEBUG Bot started
+21:20:51,668 aiogram.event INFO Update id=100184725 is handled. Duration 375 ms by bot id=6350909967
+21:20:52,955 aiogram.event INFO Update id=100184726 is not handled. Duration 0 ms by bot id=6350909967
+21:20:52,955 aiogram.event ERROR Cause exception while process update id=100184726 by bot id=6350909967
+ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=CategoriesCallbackFactory(key=1), input_type=CategoriesCallbackFactory]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 47, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_categories_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 21, in build_categories_kb
+    builder.add(InlineKeyboardButton(text=str(d.get(key)), callback_data=callbacks.CategoriesCallbackFactory(key=key)))
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for InlineKeyboardButton
+callback_data
+  Input should be a valid string [type=string_type, input_value=CategoriesCallbackFactory(key=1), input_type=CategoriesCallbackFactory]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+21:20:56,719 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:20:56,719 aiogram.dispatcher INFO Polling stopped
+21:28:15,509 aiogram.dispatcher INFO Start polling
+21:28:15,607 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:28:16,200 bot_logger DEBUG Bot started
+21:28:16,200 aiogram.event INFO Update id=100184727 is handled. Duration 469 ms by bot id=6350909967
+21:28:17,558 bot_logger DEBUG Category list was sent at show_categories()
+21:28:17,558 aiogram.event INFO Update id=100184728 is handled. Duration 219 ms by bot id=6350909967
+21:28:29,654 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+21:28:29,654 aiogram.dispatcher INFO Polling stopped
+22:23:22,686 aiogram.dispatcher INFO Start polling
+22:23:22,791 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:23:26,146 bot_logger DEBUG Bot started
+22:23:26,146 aiogram.event INFO Update id=100184729 is handled. Duration 453 ms by bot id=6350909967
+22:23:27,544 bot_logger DEBUG Category list was sent at show_categories()
+22:23:27,544 aiogram.event INFO Update id=100184730 is handled. Duration 171 ms by bot id=6350909967
+22:23:29,338 aiogram.event INFO Update id=100184731 is not handled. Duration 0 ms by bot id=6350909967
+22:23:29,340 aiogram.event ERROR Cause exception while process update id=100184731 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 63, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+22:23:49,606 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:23:49,606 aiogram.dispatcher INFO Polling stopped
+22:27:35,121 aiogram.dispatcher INFO Start polling
+22:27:35,314 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:27:38,329 bot_logger DEBUG Bot started
+22:27:38,329 aiogram.event INFO Update id=100184732 is handled. Duration 688 ms by bot id=6350909967
+22:27:39,791 bot_logger DEBUG Category list was sent at show_categories()
+22:27:39,791 aiogram.event INFO Update id=100184733 is handled. Duration 233 ms by bot id=6350909967
+22:27:41,871 aiogram.event INFO Update id=100184734 is not handled. Duration 0 ms by bot id=6350909967
+22:27:41,871 aiogram.event ERROR Cause exception while process update id=100184734 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+22:27:49,613 aiogram.event INFO Update id=100184735 is not handled. Duration 0 ms by bot id=6350909967
+22:27:49,613 aiogram.event ERROR Cause exception while process update id=100184735 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+22:27:53,200 aiogram.dispatcher INFO Polling stopped
+22:27:53,201 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:36:44,299 aiogram.dispatcher INFO Start polling
+22:36:44,415 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:36:46,166 bot_logger DEBUG Bot started
+22:36:46,166 aiogram.event INFO Update id=100184736 is handled. Duration 375 ms by bot id=6350909967
+22:36:48,275 bot_logger DEBUG Category list was sent at show_categories()
+22:36:48,276 aiogram.event INFO Update id=100184737 is handled. Duration 219 ms by bot id=6350909967
+22:36:53,870 aiogram.event INFO Update id=100184738 is not handled. Duration 0 ms by bot id=6350909967
+22:36:53,870 aiogram.event ERROR Cause exception while process update id=100184738 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+22:37:37,432 aiogram.dispatcher INFO Polling stopped
+22:37:37,432 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:43:01,258 aiogram.dispatcher INFO Start polling
+22:43:01,359 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:43:08,382 bot_logger DEBUG Bot started
+22:43:08,382 aiogram.event INFO Update id=100184740 is handled. Duration 421 ms by bot id=6350909967
+22:43:10,838 bot_logger DEBUG catkey:1
+22:43:10,838 bot_logger DEBUG catkey:2
+22:43:10,838 bot_logger DEBUG catkey:3
+22:43:11,86 bot_logger DEBUG Category list was sent at show_categories()
+22:43:11,86 aiogram.event INFO Update id=100184741 is handled. Duration 250 ms by bot id=6350909967
+22:44:58,853 aiogram.event INFO Update id=100184742 is not handled. Duration 0 ms by bot id=6350909967
+22:44:58,853 aiogram.event ERROR Cause exception while process update id=100184742 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+22:45:30,809 aiogram.dispatcher INFO Polling stopped
+22:45:30,810 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:55:07,408 aiogram.dispatcher INFO Start polling
+22:55:07,514 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:55:11,333 bot_logger DEBUG Bot started
+22:55:11,334 aiogram.event INFO Update id=100184743 is handled. Duration 1311 ms by bot id=6350909967
+22:55:12,90 bot_logger DEBUG Category list was sent at show_categories()
+22:55:12,90 aiogram.event INFO Update id=100184744 is handled. Duration 234 ms by bot id=6350909967
+22:55:13,40 aiogram.event INFO Update id=100184745 is not handled. Duration 0 ms by bot id=6350909967
+22:55:13,40 aiogram.event ERROR Cause exception while process update id=100184745 by bot id=6350909967
+AttributeError: 'bool' object has no attribute 'resolve'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 112, in trigger
+    result, data = await handler.check(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 93, in check
+    check = await event_filter.call(*args, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\filters\callback_data.py", line 180, in __call__
+    if self.rule is None or self.rule.resolve(callback_data):
+AttributeError: 'bool' object has no attribute 'resolve'
+22:55:19,494 aiogram.dispatcher INFO Polling stopped
+22:55:19,494 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+22:59:38,48 aiogram.dispatcher INFO Start polling
+22:59:38,146 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:00:11,493 bot_logger DEBUG Bot started
+23:00:11,493 aiogram.event INFO Update id=100184746 is handled. Duration 467 ms by bot id=6350909967
+23:00:12,647 aiogram.event INFO Update id=100184747 is not handled. Duration 16 ms by bot id=6350909967
+23:00:12,647 aiogram.event ERROR Cause exception while process update id=100184747 by bot id=6350909967
+TypeError: 'generator' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 47, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_categories_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 23, in build_categories_kb
+    logger.debug(builder.buttons[0])
+TypeError: 'generator' object is not subscriptable
+23:00:35,288 aiogram.dispatcher INFO Polling stopped
+23:00:35,289 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:00:43,859 aiogram.dispatcher INFO Start polling
+23:00:43,966 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:00:44,928 bot_logger DEBUG Bot started
+23:00:44,929 aiogram.event INFO Update id=100184749 is handled. Duration 516 ms by bot id=6350909967
+23:00:46,303 aiogram.event INFO Update id=100184750 is not handled. Duration 16 ms by bot id=6350909967
+23:00:46,303 aiogram.event ERROR Cause exception while process update id=100184750 by bot id=6350909967
+TypeError: 'generator' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 47, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_categories_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 23, in build_categories_kb
+    logger.debug(builder.buttons[0])
+TypeError: 'generator' object is not subscriptable
+23:00:51,560 aiogram.dispatcher INFO Polling stopped
+23:00:51,561 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:01:17,848 aiogram.dispatcher INFO Start polling
+23:01:18,52 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:01:25,74 bot_logger DEBUG Bot started
+23:01:25,74 aiogram.event INFO Update id=100184753 is handled. Duration 657 ms by bot id=6350909967
+23:01:28,215 aiogram.event INFO Update id=100184754 is not handled. Duration 15 ms by bot id=6350909967
+23:01:28,215 aiogram.event ERROR Cause exception while process update id=100184754 by bot id=6350909967
+TypeError: 'generator' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 47, in show_categories
+    await clbck.message.answer(text.category_select, reply_markup=Keyboards.build_categories_kb(categories))
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\Keyboards.py", line 23, in build_categories_kb
+    logger.debug(str(builder.buttons[0]))
+TypeError: 'generator' object is not subscriptable
+23:01:39,690 aiogram.dispatcher INFO Polling stopped
+23:01:39,693 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:01:56,112 aiogram.dispatcher INFO Start polling
+23:01:56,211 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:02:00,447 bot_logger DEBUG Bot started
+23:02:00,448 aiogram.event INFO Update id=100184755 is handled. Duration 500 ms by bot id=6350909967
+23:02:09,322 bot_logger DEBUG Category list was sent at show_categories()
+23:02:09,323 aiogram.event INFO Update id=100184756 is handled. Duration 188 ms by bot id=6350909967
+23:02:19,469 aiogram.event INFO Update id=100184757 is not handled. Duration 0 ms by bot id=6350909967
+23:02:19,470 aiogram.event ERROR Cause exception while process update id=100184757 by bot id=6350909967
+AttributeError: 'bool' object has no attribute 'resolve'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 112, in trigger
+    result, data = await handler.check(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 93, in check
+    check = await event_filter.call(*args, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\filters\callback_data.py", line 180, in __call__
+    if self.rule is None or self.rule.resolve(callback_data):
+AttributeError: 'bool' object has no attribute 'resolve'
+23:02:29,727 bot_logger DEBUG Category list was sent at show_categories()
+23:02:29,727 aiogram.event INFO Update id=100184758 is handled. Duration 452 ms by bot id=6350909967
+23:02:47,974 aiogram.dispatcher INFO Polling stopped
+23:02:47,975 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:04:38,984 aiogram.dispatcher INFO Start polling
+23:04:39,79 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:04:42,396 bot_logger DEBUG Bot started
+23:04:42,396 aiogram.event INFO Update id=100184759 is handled. Duration 375 ms by bot id=6350909967
+23:04:43,854 bot_logger DEBUG Category list was sent at show_categories()
+23:04:43,854 aiogram.event INFO Update id=100184760 is handled. Duration 188 ms by bot id=6350909967
+23:04:44,950 aiogram.event INFO Update id=100184761 is not handled. Duration 0 ms by bot id=6350909967
+23:04:44,951 aiogram.event ERROR Cause exception while process update id=100184761 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:10:08,875 aiogram.dispatcher INFO Polling stopped
+23:10:08,876 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:10:14,672 aiogram.dispatcher INFO Start polling
+23:10:14,780 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:10:22,36 bot_logger DEBUG Bot started
+23:10:22,36 aiogram.event INFO Update id=100184762 is handled. Duration 344 ms by bot id=6350909967
+23:10:23,630 bot_logger DEBUG Category list was sent at show_categories()
+23:10:23,630 aiogram.event INFO Update id=100184763 is handled. Duration 202 ms by bot id=6350909967
+23:10:24,929 aiogram.event INFO Update id=100184764 is not handled. Duration 0 ms by bot id=6350909967
+23:10:24,929 aiogram.event ERROR Cause exception while process update id=100184764 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:10:39,670 aiogram.event INFO Update id=100184765 is not handled. Duration 0 ms by bot id=6350909967
+23:10:39,670 aiogram.event ERROR Cause exception while process update id=100184765 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:10:41,639 aiogram.event INFO Update id=100184766 is handled. Duration 375 ms by bot id=6350909967
+23:10:43,930 aiogram.event INFO Update id=100184767 is handled. Duration 250 ms by bot id=6350909967
+23:11:08,194 aiogram.dispatcher INFO Polling stopped
+23:11:08,194 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:11:12,954 aiogram.dispatcher INFO Start polling
+23:11:13,56 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:11:13,654 aiogram.dispatcher INFO Polling stopped
+23:11:13,654 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:12:11,580 aiogram.dispatcher INFO Start polling
+23:12:11,678 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:12:15,672 bot_logger DEBUG Bot started
+23:12:15,672 aiogram.event INFO Update id=100184768 is handled. Duration 467 ms by bot id=6350909967
+23:12:18,862 aiogram.event INFO Update id=100184769 is not handled. Duration 0 ms by bot id=6350909967
+23:12:18,862 aiogram.event ERROR Cause exception while process update id=100184769 by bot id=6350909967
+ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=Message(message_id=103, d...game=None, pay=None)]])), input_type=Message]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 91, in default
+    await clbck.message.answer(clbck.message)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\types\message.py", line 1725, in answer
+    return SendMessage(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\pydantic\main.py", line 165, in __init__
+    __pydantic_self__.__pydantic_validator__.validate_python(data, self_instance=__pydantic_self__)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for SendMessage
+text
+  Input should be a valid string [type=string_type, input_value=Message(message_id=103, d...game=None, pay=None)]])), input_type=Message]
+    For further information visit https://errors.pydantic.dev/2.3/v/string_type
+23:12:24,702 bot_logger DEBUG Category list was sent at show_categories()
+23:12:24,702 aiogram.event INFO Update id=100184770 is handled. Duration 219 ms by bot id=6350909967
+23:12:26,719 aiogram.event INFO Update id=100184771 is not handled. Duration 0 ms by bot id=6350909967
+23:12:26,719 aiogram.event ERROR Cause exception while process update id=100184771 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:12:27,480 aiogram.event INFO Update id=100184772 is not handled. Duration 0 ms by bot id=6350909967
+23:12:27,481 aiogram.event ERROR Cause exception while process update id=100184772 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:12:35,571 aiogram.dispatcher INFO Polling stopped
+23:12:35,572 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:12:54,682 aiogram.dispatcher INFO Start polling
+23:12:54,779 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:12:56,945 bot_logger DEBUG Bot started
+23:12:56,946 aiogram.event INFO Update id=100184773 is handled. Duration 984 ms by bot id=6350909967
+23:12:59,15 aiogram.event INFO Update id=100184774 is handled. Duration 171 ms by bot id=6350909967
+23:13:02,286 aiogram.event INFO Update id=100184775 is handled. Duration 219 ms by bot id=6350909967
+23:13:05,214 bot_logger DEBUG Category list was sent at show_categories()
+23:13:05,214 aiogram.event INFO Update id=100184776 is handled. Duration 140 ms by bot id=6350909967
+23:13:06,952 aiogram.event INFO Update id=100184777 is not handled. Duration 0 ms by bot id=6350909967
+23:13:06,952 aiogram.event ERROR Cause exception while process update id=100184777 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:13:08,356 aiogram.event INFO Update id=100184778 is not handled. Duration 0 ms by bot id=6350909967
+23:13:08,356 aiogram.event ERROR Cause exception while process update id=100184778 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:13:09,172 aiogram.event INFO Update id=100184779 is not handled. Duration 0 ms by bot id=6350909967
+23:13:09,172 aiogram.event ERROR Cause exception while process update id=100184779 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:13:17,818 aiogram.dispatcher INFO Polling stopped
+23:13:17,819 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:13:22,242 aiogram.dispatcher INFO Start polling
+23:13:22,349 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:13:23,942 bot_logger DEBUG Bot started
+23:13:23,942 aiogram.event INFO Update id=100184780 is handled. Duration 625 ms by bot id=6350909967
+23:13:25,801 aiogram.event INFO Update id=100184781 is handled. Duration 327 ms by bot id=6350909967
+23:13:29,723 aiogram.event INFO Update id=100184782 is handled. Duration 203 ms by bot id=6350909967
+23:13:45,150 aiogram.event INFO Update id=100184783 is handled. Duration 328 ms by bot id=6350909967
+23:13:48,202 aiogram.event INFO Update id=100184784 is handled. Duration 140 ms by bot id=6350909967
+23:14:13,946 aiogram.event INFO Update id=100184785 is not handled. Duration 0 ms by bot id=6350909967
+23:14:13,946 aiogram.event ERROR Cause exception while process update id=100184785 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:14:27,88 aiogram.dispatcher INFO Polling stopped
+23:14:27,89 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:15:56,556 aiogram.dispatcher INFO Start polling
+23:15:56,665 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:15:59,582 aiogram.dispatcher INFO Polling stopped
+23:15:59,582 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:16:22,473 aiogram.dispatcher INFO Start polling
+23:16:22,575 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:16:25,976 bot_logger DEBUG Bot started
+23:16:25,977 aiogram.event INFO Update id=100184786 is handled. Duration 359 ms by bot id=6350909967
+23:16:31,300 aiogram.event INFO Update id=100184787 is handled. Duration 171 ms by bot id=6350909967
+23:16:32,731 bot_logger DEBUG Category list was sent at show_categories()
+23:16:32,732 aiogram.event INFO Update id=100184788 is handled. Duration 140 ms by bot id=6350909967
+23:16:34,264 aiogram.event INFO Update id=100184789 is not handled. Duration 0 ms by bot id=6350909967
+23:16:34,264 aiogram.event ERROR Cause exception while process update id=100184789 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:16:36,614 aiogram.event INFO Update id=100184790 is not handled. Duration 0 ms by bot id=6350909967
+23:16:36,614 aiogram.event ERROR Cause exception while process update id=100184790 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:16:46,816 aiogram.dispatcher INFO Polling stopped
+23:16:46,817 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:17:14,402 aiogram.dispatcher INFO Start polling
+23:17:14,500 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:17:16,965 bot_logger DEBUG Bot started
+23:17:16,966 aiogram.event INFO Update id=100184791 is handled. Duration 500 ms by bot id=6350909967
+23:17:18,471 bot_logger DEBUG Category list was sent at show_categories()
+23:17:18,471 aiogram.event INFO Update id=100184792 is handled. Duration 250 ms by bot id=6350909967
+23:17:19,174 aiogram.event INFO Update id=100184793 is not handled. Duration 0 ms by bot id=6350909967
+23:17:19,174 aiogram.event ERROR Cause exception while process update id=100184793 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:17:21,934 aiogram.event INFO Update id=100184794 is handled. Duration 172 ms by bot id=6350909967
+23:17:24,888 aiogram.event INFO Update id=100184795 is handled. Duration 250 ms by bot id=6350909967
+23:17:57,976 aiogram.dispatcher INFO Polling stopped
+23:17:57,977 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:18:01,860 aiogram.dispatcher INFO Start polling
+23:18:01,986 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:18:03,973 bot_logger DEBUG Bot started
+23:18:03,974 aiogram.event INFO Update id=100184796 is handled. Duration 469 ms by bot id=6350909967
+23:18:05,403 bot_logger DEBUG Category list was sent at show_categories()
+23:18:05,403 aiogram.event INFO Update id=100184797 is handled. Duration 219 ms by bot id=6350909967
+23:18:06,273 bot_logger DEBUG show_items_in_categories
+23:18:06,273 aiogram.event INFO Update id=100184798 is not handled. Duration 0 ms by bot id=6350909967
+23:18:06,273 aiogram.event ERROR Cause exception while process update id=100184798 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 64, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:18:18,402 aiogram.dispatcher INFO Polling stopped
+23:18:18,403 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:19:21,875 aiogram.dispatcher INFO Start polling
+23:19:21,980 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:19:25,465 bot_logger DEBUG Bot started
+23:19:25,465 aiogram.event INFO Update id=100184799 is handled. Duration 375 ms by bot id=6350909967
+23:19:27,1 bot_logger DEBUG Category list was sent at show_categories()
+23:19:27,2 aiogram.event INFO Update id=100184800 is handled. Duration 171 ms by bot id=6350909967
+23:19:28,124 bot_logger DEBUG show_items_in_categories
+23:19:28,125 bot_logger DEBUG State set
+23:19:28,125 bot_logger DEBUG Key retrieved
+23:19:28,125 bot_logger DEBUG Data init
+23:19:28,125 aiogram.event INFO Update id=100184801 is not handled. Duration 0 ms by bot id=6350909967
+23:19:28,125 aiogram.event ERROR Cause exception while process update id=100184801 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 67, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:19:44,235 aiogram.dispatcher INFO Polling stopped
+23:19:44,236 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:32:42,173 aiogram.dispatcher INFO Start polling
+23:32:42,270 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:32:43,592 bot_logger DEBUG Bot started
+23:32:43,592 aiogram.event INFO Update id=100184802 is handled. Duration 719 ms by bot id=6350909967
+23:32:45,120 bot_logger DEBUG Category list was sent at show_categories()
+23:32:45,120 aiogram.event INFO Update id=100184803 is handled. Duration 234 ms by bot id=6350909967
+23:32:45,937 bot_logger DEBUG show_items_in_categories
+23:32:45,937 bot_logger DEBUG State set
+23:32:45,937 bot_logger DEBUG Key retrieved
+23:32:45,937 bot_logger DEBUG Data init
+23:32:45,937 aiogram.event INFO Update id=100184804 is not handled. Duration 0 ms by bot id=6350909967
+23:32:45,937 aiogram.event ERROR Cause exception while process update id=100184804 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 67, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:34:37,835 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:34:37,835 aiogram.dispatcher INFO Polling stopped
+23:55:10,315 aiogram.dispatcher INFO Start polling
+23:55:10,427 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:55:12,396 bot_logger DEBUG Bot started
+23:55:12,396 aiogram.event INFO Update id=100184805 is handled. Duration 422 ms by bot id=6350909967
+23:55:13,891 bot_logger DEBUG Category list was sent at show_categories()
+23:55:13,891 aiogram.event INFO Update id=100184806 is handled. Duration 171 ms by bot id=6350909967
+23:55:14,843 bot_logger DEBUG show_items_in_categories
+23:55:14,843 bot_logger DEBUG State set
+23:55:14,843 bot_logger DEBUG Key retrieved
+23:55:14,843 bot_logger DEBUG Data init
+23:55:14,844 aiogram.event INFO Update id=100184807 is not handled. Duration 0 ms by bot id=6350909967
+23:55:14,845 aiogram.event ERROR Cause exception while process update id=100184807 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 67, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+23:55:37,637 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+23:55:37,637 aiogram.dispatcher INFO Polling stopped
+00:02:05,406 aiogram.dispatcher INFO Start polling
+00:02:05,507 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:02:09,706 bot_logger DEBUG Bot started
+00:02:09,707 aiogram.event INFO Update id=100184809 is handled. Duration 546 ms by bot id=6350909967
+00:02:11,294 bot_logger DEBUG Category list was sent at show_categories()
+00:02:11,294 aiogram.event INFO Update id=100184810 is handled. Duration 264 ms by bot id=6350909967
+00:02:29,756 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:02:29,756 aiogram.dispatcher INFO Polling stopped
+00:03:14,54 aiogram.dispatcher INFO Start polling
+00:03:14,152 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:03:18,245 bot_logger DEBUG Bot started
+00:03:18,245 aiogram.event INFO Update id=100184811 is handled. Duration 467 ms by bot id=6350909967
+00:03:19,618 bot_logger DEBUG Category list was sent at show_categories()
+00:03:19,618 aiogram.event INFO Update id=100184812 is handled. Duration 217 ms by bot id=6350909967
+00:04:11,803 aiogram.dispatcher INFO Polling stopped
+00:04:11,803 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:05:01,921 aiogram.dispatcher INFO Start polling
+00:05:02,26 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:05:02,680 bot_logger DEBUG Bot started
+00:05:02,680 aiogram.event INFO Update id=100184813 is handled. Duration 500 ms by bot id=6350909967
+00:05:03,845 bot_logger DEBUG dict_keys(['name'])
+00:05:03,846 bot_logger DEBUG dict_values(['11'])
+00:05:04,313 bot_logger DEBUG Category list was sent at show_categories()
+00:05:04,313 aiogram.event INFO Update id=100184814 is handled. Duration 469 ms by bot id=6350909967
+00:05:14,913 aiogram.dispatcher INFO Polling stopped
+00:05:14,914 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:05:36,330 aiogram.dispatcher INFO Start polling
+00:05:36,439 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:05:38,589 bot_logger DEBUG Bot started
+00:05:38,589 aiogram.event INFO Update id=100184815 is handled. Duration 390 ms by bot id=6350909967
+00:05:39,611 bot_logger DEBUG dict_keys(['name'])
+00:05:39,611 bot_logger DEBUG dict_values([{'1': '11'}])
+00:05:39,835 bot_logger DEBUG Category list was sent at show_categories()
+00:05:39,835 aiogram.event INFO Update id=100184816 is handled. Duration 234 ms by bot id=6350909967
+00:05:50,779 aiogram.dispatcher INFO Polling stopped
+00:05:50,780 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:08:30,938 aiogram.dispatcher INFO Start polling
+00:08:31,53 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:08:36,597 bot_logger DEBUG Bot started
+00:08:36,598 aiogram.event INFO Update id=100184817 is handled. Duration 436 ms by bot id=6350909967
+00:08:38,148 bot_logger DEBUG Category list was sent at show_categories()
+00:08:38,148 aiogram.event INFO Update id=100184818 is handled. Duration 172 ms by bot id=6350909967
+00:08:40,726 bot_logger DEBUG show_items_in_categories
+00:08:40,726 bot_logger DEBUG {469492126: {'category_key': 1}}
+00:08:40,726 aiogram.event INFO Update id=100184819 is not handled. Duration 0 ms by bot id=6350909967
+00:08:40,726 aiogram.event ERROR Cause exception while process update id=100184819 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 62, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+00:09:50,564 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:09:50,564 aiogram.dispatcher INFO Polling stopped
+00:09:54,855 aiogram.dispatcher INFO Start polling
+00:09:54,956 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:09:59,568 bot_logger DEBUG Bot started
+00:09:59,568 aiogram.event INFO Update id=100184820 is handled. Duration 375 ms by bot id=6350909967
+00:10:00,771 bot_logger DEBUG Category list was sent at show_categories()
+00:10:00,771 aiogram.event INFO Update id=100184821 is handled. Duration 141 ms by bot id=6350909967
+00:10:01,755 bot_logger DEBUG show_items_in_categories
+00:10:01,755 aiogram.event INFO Update id=100184822 is not handled. Duration 15 ms by bot id=6350909967
+00:10:01,755 aiogram.event ERROR Cause exception while process update id=100184822 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 60, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+00:10:17,878 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:10:17,878 aiogram.dispatcher INFO Polling stopped
+00:10:22,645 aiogram.dispatcher INFO Start polling
+00:10:22,741 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:10:24,403 bot_logger DEBUG Bot started
+00:10:24,404 aiogram.event INFO Update id=100184823 is handled. Duration 360 ms by bot id=6350909967
+00:10:25,546 bot_logger DEBUG Category list was sent at show_categories()
+00:10:25,546 aiogram.event INFO Update id=100184824 is handled. Duration 125 ms by bot id=6350909967
+00:10:26,553 bot_logger DEBUG show_items_in_categories
+00:10:26,553 aiogram.event INFO Update id=100184825 is not handled. Duration 0 ms by bot id=6350909967
+00:10:26,553 aiogram.event ERROR Cause exception while process update id=100184825 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 60, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+00:10:30,948 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:10:30,949 aiogram.dispatcher INFO Polling stopped
+00:11:07,794 aiogram.dispatcher INFO Start polling
+00:11:07,892 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:11:09,310 bot_logger DEBUG Bot started
+00:11:09,311 aiogram.event INFO Update id=100184826 is handled. Duration 405 ms by bot id=6350909967
+00:11:10,804 bot_logger DEBUG Category list was sent at show_categories()
+00:11:10,804 aiogram.event INFO Update id=100184827 is handled. Duration 219 ms by bot id=6350909967
+00:11:11,655 bot_logger DEBUG show_items_in_categories
+00:11:11,655 aiogram.event INFO Update id=100184828 is not handled. Duration 0 ms by bot id=6350909967
+00:11:11,655 aiogram.event ERROR Cause exception while process update id=100184828 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 60, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+00:11:39,21 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:11:39,21 aiogram.dispatcher INFO Polling stopped
+00:11:53,417 aiogram.dispatcher INFO Start polling
+00:11:53,521 aiogram.dispatcher INFO Run polling for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:11:59,586 bot_logger DEBUG Bot started
+00:11:59,586 aiogram.event INFO Update id=100184829 is handled. Duration 375 ms by bot id=6350909967
+00:12:00,670 bot_logger DEBUG Category list was sent at show_categories()
+00:12:00,670 aiogram.event INFO Update id=100184830 is handled. Duration 139 ms by bot id=6350909967
+00:12:01,555 bot_logger DEBUG show_items_in_categories
+00:12:01,556 aiogram.event INFO Update id=100184831 is not handled. Duration 0 ms by bot id=6350909967
+00:12:01,556 aiogram.event ERROR Cause exception while process update id=100184831 by bot id=6350909967
+TypeError: show_item() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 308, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 157, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 275, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 144, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 116, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 111, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 136, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 120, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 42, in call
+    return await wrapped()
+  File "C:\Учёба\Питон\бот дежавю\Dejavu-bot\handlers.py", line 60, in show_items_in_categories
+    await show_item(1, clbck.from_user.id, clbck)
+TypeError: show_item() missing 1 required positional argument: 'state'
+00:12:24,668 aiogram.dispatcher INFO Polling stopped for bot @dejavu_coffee_bot id=6350909967 - 'Dejavu Online Besplatno'
+00:12:24,668 aiogram.dispatcher INFO Polling stopped

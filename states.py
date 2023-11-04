@@ -1,12 +1,13 @@
 from aiogram.fsm.state import StatesGroup, State
 
+
 class Add(StatesGroup):
-    add_descr = State()
-    add_name = State()
+    waiting_to_add_descr = State()
+    waiting_to_add_name = State()
+
 
 class Choose(StatesGroup):
-    choose_category = State()
-    choose_item = State()
+    waiting_to_choose_category = State()
+    waiting_to_choose_action = State()
+    waiting_to_choose_item = State()
 
-class Waiting(StatesGroup):
-    ignore = State()
