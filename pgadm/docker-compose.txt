@@ -1,0 +1,30 @@
+services:
+
+    postgres:
+        image: postgres
+        restart: always
+        environment:
+          - POSTGRES_DB: postgres
+          - POSTGRES_USER: postgres
+          - POSTGRES_PASSWORD: 123
+          - PGDATA: /var/lib/postgresql/data
+        volumes:
+          - ./data:/var/lib/postgresql/data
+        networks:
+          - inter_net
+    pgadmin4:
+        image: elestio/pgadmin
+        restart: always
+        environment:
+          - PGADMIN_DEFAULT_EMAIL: mdc5@tpu.ru
+          - PGADMIN_DEFAULT_PASSWORD: 123
+          - PGADMIN_LISTEN_PORT: 8080
+        ports:
+          - "8080:8080"
+        networks:
+          - inter_net
+
+networks:
+  inter_net:
+    driver: bridge
+
