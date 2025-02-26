@@ -14,6 +14,7 @@ class BaseModel(Model):
         database = database
         model_metadata_class = ThreadSafeDatabaseMetadata
 
+
 class Category(BaseModel):
     category_id = AutoField(column_name='CategoryID')
     category_name = TextField(column_name='CategoryName')
@@ -38,6 +39,16 @@ class Size(BaseModel):
         table_name = 'Size'
 
 
+class Filters(BaseModel):
+    category_key = IntegerField(column_name='Category_key', null=True)
+    pricing = TextField(column_name='Pricing', null=True)
+    sex_key = IntegerField(column_name='Sex_key', null=True)
+    user_id = AutoField(column_name='User_id')
+
+    class Meta:
+        table_name = 'Filters'
+
+
 class Clothing(BaseModel):
     category = ForeignKeyField(column_name='Category', field='category_id', model=Category)
     cloth_id = AutoField(column_name='ClothID')
@@ -48,11 +59,11 @@ class Clothing(BaseModel):
     status = ForeignKeyField(column_name='Status', field='status_id', model=Statuses)
 
     def GetImagePaths(self):
-        query = (ImagesOfClothing.select('ImagePath')
+        query = (ImagesOfClothing.select(ImagesOfClothing.image_path)
                  .where(ImagesOfClothing.clothFK == self.cloth_id))
         image_paths = []
         for im in query:
-            image_paths.append("./images/" + im)
+            image_paths.append(f"./images/{im.image_path}")
         return image_paths
 
     class Meta:

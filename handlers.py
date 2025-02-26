@@ -11,10 +11,9 @@ import text
 from utils import build_media_group
 from aiogram import flags
 
-from Models import Category, Clothing
+from Models import Category, Clothing, Filters
 import states
 from callbacks import *
-
 
 router = Router()
 
@@ -54,32 +53,43 @@ async def show_items_in_categories(clbck: CallbackQuery,
                                    state: FSMContext):
     logger.debug("show_items_in_categories")
     await state.set_state(states.Choose.waiting_to_choose_item)
-    await state.update_data({str(clbck.from_user.id): {'category_key': callback_data.key}})
-    logging.debug("State data updated with catkey")
-
-    await show_item(1, clbck.from_user.id, clbck)
-
-
-async def show_item(position: int, user_id: int, clbck: CallbackQuery, state: FSMContext):
-    user_data = await state.get_data()['users_picks'][user_id]
     try:
+        Filters.replace({Filters.user_id: clbck.from_user.id, Filters.category_key: callback_data.key}).execute()
+        logger.debug(f"Filters data updated with catkey | {clbck.from_user.id, callback_data.key}")
+    except Exception as inst:
+        logger.error(f"{type(inst)} at updating filters")
+    await show_item(0, clbck)
+
+
+async def show_item(position: int, clbck: CallbackQuery):
+    pref: Filters
+    try:
+        pref = (Filters.select()
+                .where(Filters.user_id == clbck.from_user.id)
+                .get())
+    except Exception as inst:
+        logger.error(f"{type(inst)} at retrieving filters: {inst}")
+    try:
+        logger.debug(f"Preferences: {pref.user_id, pref.category_key}")
         query = (Clothing.select()
-                 .where(int(Clothing.category) == user_data['category_key'] and Clothing.status == 1)
+                 .where((Clothing.category == pref.category_key) &
+                        (Clothing.status == 1))
                  .order_by(Clothing.name)
                  )  # учесть статусы в будущем
+        if query.exists():
+            item: Clothing = query[position]
+            logger.debug(f"Item {item.name} | {item.description} retrieved")
+            media = build_media_group(item.GetImagePaths())
+            logger.debug(f"Media built: {len(media)}")
+            await clbck.message.answer_photo(photo=media[0],
+                                             caption=f"{item.name}\n{item.description}\n{str(item.price)}",
+                                             reply_markup=Keyboards.build_item_kb(position))
+        else:
+            await clbck.message.answer(text.not_found, reply_markup=Keyboards.menu)
+            logger.debug("No matching rows")
+
     except Exception as inst:
-        logger.error(f"{type(inst)} at show_item()")
-    if query.exists():
-        item: Clothing = query[position]
-        logger.debug(f"Item {item.name} retrieved")
-        media = build_media_group(item.GetImagePaths())
-        await clbck.message.answer_media_group(media=media,
-                                           caption=item.name + '\n'
-                                                   + item.description + '\n'
-                                                   + str(item.price),
-                                           reply_markup=Keyboards.build_item_kb())
-    else:
-        await clbck.message.answer(text.not_found, reply_markup=Keyboards.menu)
+        logger.error(f"{type(inst)} at show_item(): {inst}")
 
 
 @router.callback_query()

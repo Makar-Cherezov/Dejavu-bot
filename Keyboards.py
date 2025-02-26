@@ -19,21 +19,35 @@ def build_categories_kb(d: dict):
     for key in d.keys():
         builder.button(
             text=str(d.get(key)),
-            callback_data=callbacks.CategoriesCallbackFactory(key=key, df="1"))
+            callback_data=callbacks.CategoriesCallbackFactory(key=key))
     builder.adjust(2)
     return builder.as_markup()
 
 
-def build_item_kb(position, rel_pos = None): #previous and next items + add to cart
-    left_button = InlineKeyboardButton(text="◀", callback_data=f"{position - 1}")
-    middle_button = InlineKeyboardButton(text="Хочу посмотреть на месте!", callback_data=f"{position}") # search for dynamic states
-    right_button = InlineKeyboardButton(text="▶", callback_data=f"{position + 1}")
-    if rel_pos == "first":
-        buttons = [middle_button, right_button]
-    elif rel_pos == "last":
-        buttons = [left_button, middle_button]
+def build_item_kb(position: int, is_last=False):
+    builder = InlineKeyboardBuilder()
+    left_button = InlineKeyboardButton(text="◀", callback_data=callbacks.ItemIterCallbackFactory(key=position-1).pack())
+    middle_button = InlineKeyboardButton(text="Хочу посмотреть на месте!", callback_data=callbacks.ItemChosenCallbackFactory(key=position).pack()) # search for dynamic states
+    right_button = InlineKeyboardButton(text="▶", callback_data=callbacks.ItemIterCallbackFactory(key=position+1).pack())
+    if position == 0:
+        builder.add(
+            middle_button,
+            right_button
+        )
+        builder.adjust(2)
+    elif is_last:
+        builder.add(
+            left_button,
+            middle_button
+        )
+        builder.adjust(2)
     else:
-        buttons = [left_button, middle_button, right_button]
-    return InlineKeyboardMarkup(buttons)
+        builder.add(
+            left_button,
+            middle_button,
+            right_button
+        )
+        builder.adjust(3)
+    return builder.as_markup()
 
 

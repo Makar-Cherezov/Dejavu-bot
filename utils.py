@@ -3,9 +3,7 @@ from aiogram import types
 
 
 def build_media_group(file_paths: list):
-    images = types.MediaGroup()
-    for path in file_paths:
-        images.attach_photo(types.InputFile(path))
+    images = [types.FSInputFile(path) for path in file_paths]
     return images
 
 
