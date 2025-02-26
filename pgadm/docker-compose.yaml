@@ -12,6 +12,8 @@ services:
           - ./data:/var/lib/postgresql/data
         networks:
           - inter_net
+        ports:
+          - "5432:5432"
     pgadmin4:
         image: elestio/pgadmin
         restart: always
